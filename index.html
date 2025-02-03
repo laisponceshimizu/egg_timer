@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer de Cozimento de Ovo</title>
+    <link rel="stylesheet" href="main.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Timer de Cozimento de Ovo</h1>
+        <div class="options">
+            <button id="softBtn">Ovo Mole (5 min)</button>
+            <button id="mediumBtn">Ovo Médio (7 min)</button>
+            <button id="hardBtn">Ovo Duro (10 min)</button>
+        </div>
+        <div class="timer-display">
+            <span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+        <div class="egg-gif">
+            <img id="eggImage" src="egg.gif" alt="Ovo cozinhando">
+        </div>
+        <div class="controls">
+            <button id="startBtn">Iniciar</button>
+            <button id="resetBtn">Resetar</button>
+        </div>
+    </div>
+    <audio id="alarm" src="alarm.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
